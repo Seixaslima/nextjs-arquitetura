@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "projects/*",
+      "setup/*"
+    ]
+  },
+  "dependencies": {
+    "@types/styled-components": "5.1.29",
+    "@types/node": "20.8.10",
+    "@types/react": "18.2.33",
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "web-public": "yarn workspace @seixas/web-public",
+    "dev:web-public": "yarn web-public dev",
+    "build:web-public": "yarn web-public build",
+    "start:web-public": "yarn web-public start",
+    "design-system": "yarn workspace @seixas/design-system"
+  }
+}
