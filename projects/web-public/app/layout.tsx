@@ -1,9 +1,10 @@
-import StyledComponentsRegistry from './lib/registry'
+import React from "react";
+import StyledComponentsRegistry from "./lib/registry";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html>
@@ -11,5 +12,5 @@ export default function RootLayout({
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
     </html>
-  )
+  );
 }
