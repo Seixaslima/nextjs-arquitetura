@@ -11,5 +11,9 @@
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-react": "7.33.2"
+  },
+  "scripts": {
+    "test": "echo 'Not implemented'",
+    "lint": "echo 'Not implemented'"
   }
 }

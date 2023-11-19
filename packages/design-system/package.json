@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./**/*.{tsx,ts} "
+  },
   "dependencies": {
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
-    "@seixas/tsconfig-commons": "*"
+    "@seixas/test-commons": "*",
+    "@seixas/tsconfig-commons": "*",
+    "@seixas/eslint-commons": "*"
   }
 }

@@ -1,3 +1,11 @@
 module.exports = {
-  extends: ["next", "eslint:recommended", "plugin:prettier/recommended"],
+  env: {
+    "jest/globals": true,
+  },
+  extends: [
+    "next",
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "plugin:prettier/recommended",
+  ],
 };
